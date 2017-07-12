@@ -1,0 +1,82 @@
+h1{
+	color: white;
+	font-family: "Times New Roman";
+	background-color: #222222;
+	margin-top: 0px
+
+}
+h2{
+	font-family: "Times New Roman";
+	color: #073fb0;
+}
+body{
+	background-image:url("paper.jpg");
+}
+#header{
+	width: 100%;
+	height: 100px;
+	margin-top: 0px;
+	background-color: #222222;
+}
+.paragraph{
+	padding-top: 35px;
+	display: block;
+	font-size: 20px;
+	padding-left: 45px;
+	padding-right: 45px;
+	font-weight: 600;
+}
+footer{
+	position: fixed;
+	bottom: 0px;
+	background-color: #222222;
+	display: block;
+	width: 100%;
+}
+#nextPage{
+	text-align: right;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+.info{
+	padding-left: 10px;
+	padding-bottom: 10px;
+}
+hr{
+	border: 1px solid;
+}
+#firstNextPage{
+	text-align: center;
+}
+#virginia{
+	padding-top: 20px;
+	position: relative;
+	height: 350px;
+	width: 70%;
+}
+#dickeys{
+	position: relative;
+	display: inline;
+	float: left;
+	width: 30%;
+	padding-left: 20px;
+	padding-top:35px; 
+}
+#starbucks{
+	position: relative;
+	display: inline;
+	float: right;
+	height: 400px;
+	width: 30%;
+	padding-top: 35px;
+	padding-bottom: 50px;
+	padding-right: 20px;
+}
+#codeCamp{
+	display: inline;
+	padding-top: 50px;
+	width: 200px;
+	height: 300px;
+	position: relative;
+	left: 15%;
+}
