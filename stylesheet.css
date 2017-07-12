@@ -11,6 +11,7 @@ h2{
 }
 body{
 	background-image:url("paper.jpg");
+	padding-bottom: 50px;
 }
 #header{
 	width: 100%;
@@ -24,6 +25,22 @@ body{
 	font-size: 20px;
 	padding-left: 45px;
 	padding-right: 45px;
+	font-weight: 600;
+}
+.paragraphProject{
+	padding-top: 60px;
+	display: block;
+	font-size: 20px;
+	padding-left: 200px;
+	padding-right: 200px;
+	font-weight: 600;
+}
+.finalParagraph{
+	padding-top: 60px;
+	display: block;
+	font-size: 20px;
+	padding-left: 200px;
+	padding-right: 200px;
 	font-weight: 600;
 }
 footer{
@@ -79,4 +96,8 @@ hr{
 	height: 300px;
 	position: relative;
 	left: 15%;
+}
+.photoMe{
+	height: 100px;
+	width: 100px;
 }
