@@ -1,9 +1,8 @@
 h1{
-	color: white;
+	color: #073fb0;
 	font-family: "Times New Roman";
 	background-color: #222222;
 	margin-top: 0px
-
 }
 h2{
 	font-family: "Times New Roman";
@@ -11,7 +10,6 @@ h2{
 }
 body{
 	background-image:url("paper.jpg");
-	padding-bottom: 50px;
 }
 #header{
 	width: 100%;
@@ -83,7 +81,7 @@ hr{
 	position: relative;
 	display: inline;
 	float: right;
-	height: 400px;
+	height: 40%;
 	width: 30%;
 	padding-top: 35px;
 	padding-bottom: 50px;
@@ -92,11 +90,6 @@ hr{
 #codeCamp{
 	display: inline;
 	padding-top: 50px;
-	width: 200px;
-	height: 300px;
 	position: relative;
-	left: 15%;
-}
-#photoMe{
-
+	left: 13%;
 }
