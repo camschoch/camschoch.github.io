@@ -1,12 +1,12 @@
 h1{
-	color: #073fb0;
+	color: white;
 	font-family: "Times New Roman";
-	background-color: #222222;
 	margin-top: 0px
 }
 h2{
+	background-color: #222222;
 	font-family: "Times New Roman";
-	color: #073fb0;
+	color: white;
 }
 body{
 	background-image:url("paper.jpg");
@@ -66,27 +66,44 @@ hr{
 	height: 350px;
 	width: 70%;
 }
-#dickeys{
-	position: relative;
-	display: inline;
-	float: left;
-	width: 30%;
-	padding-left: 20px;
-	padding-top:35px; 
-}
-#starbucks{
-	position: relative;
-	display: inline;
-	float: right;
-	height: 40%;
-	width: 30%;
-	padding-top: 35px;
-	padding-bottom: 50px;
-	padding-right: 20px;
-}
 #codeCamp{
 	display: inline;
-	padding-top: 50px;
+	background-color: black;
 	position: relative;
-	left: 13%;
+	left: 35%;
+}
+#test{
+	position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+    background-color: black;
+}
+#testAgain{
+	position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+}
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-linkedin {
+    background: #0077B5;
+    color: white;
 }
