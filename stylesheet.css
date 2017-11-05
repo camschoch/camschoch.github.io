@@ -45,12 +45,17 @@ footer{
 	position: fixed;
 	bottom: 0px;
 	background-color: #222222;
-	display: block;
+	display: inline;
 	width: 100%;
 }
 #nextPage{
 	text-align: right;
 	padding-right: 10px;
+	padding-bottom: 10px;
+}
+#previousPage{
+	text-align: left;
+	padding-left: 10px;
 	padding-bottom: 10px;
 }
 .info{
@@ -100,4 +105,9 @@ hr{
 .fa-linkedin {
     background: #0077B5;
     color: white;
+}
+.bottomText{
+	color: white;
+	padding-bottom: 10px;
+	padding-top: 10px;
 }
