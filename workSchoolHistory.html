@@ -7,7 +7,7 @@
 		<meta name="author" content="Cameron">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="vuewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/cosmo/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="https://bootswatch.com/3/cyborg/bootstrap.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" type="text/css" href="stylesheet.css">
 		<link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/">
@@ -18,7 +18,13 @@
 				<h1><br>Work/School History</h1>
 			</div>
 		</center>
-		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="btn-group btn-group-justified">
+	<a href="index.html" class="btn btn-default">About Me</a>
+ 	<a href="workSchoolHistory.html" class="btn btn-default">Work/School History</a>
+ 	<a href="pastProjects.html" class="btn btn-default">Past Projects</a>
+ 	<a href="contactMe.html" class="btn btn-default">Contact Me</a>
+</div>
+		<!--<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -40,7 +46,7 @@
   </div>
     <a href="https://www.linkedin.com/in/cameron-schoch-55403596/" class="fa fa-linkedin"></a>
   <a href="https://www.facebook.com/cameron.schoch.1" class="fa fa-facebook"></a>
-</nav>
+</nav>-->
 		<div>
 			<center>
 				<h2>Here is a rundown of previous schooling and employment!</h2>
@@ -74,9 +80,22 @@
 <br>
 <br>
 	<footer>
-		<div class="bottomText">
-			<a href="index.html" style="color:white; padding-left: 1%">Previous page</a>
-			<a href="pastProjects.html" style="color: white; padding-left: 86%">Next page</a>
+		<ul class="pager">
+  <li class="previous"><a href="index.html">&larr; Previous</a></li>
+  <li class="next"><a href="pastProjects.html">Next &rarr;</a></li>
+</ul>
+		<!--<div class="info col-sm-6">
+			<a href="index.html" style="color:white">Previous page</a>
 		</div>
+		<div id="nextPage">
+			<a href="pastProjects.html" style="color: white">Next page</a>
+		</div>
+		<div class="bottomText">
+			<p>
+			<a href="index.html" style="color:white; padding-left: 1%">Previous page</a>
+			<a href="pastProjects.html" style="color: white; text-align-last: right;">Next page</a>
+			</p>
+		</div>
+	-->
 	</footer>
 </body>

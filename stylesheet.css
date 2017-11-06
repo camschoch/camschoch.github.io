@@ -1,12 +1,16 @@
 h1{
 	color: white;
 	font-family: "Times New Roman";
-	margin-top: 0px
+	margin-top: 0px;
+	font-size: 35px;
+
 }
 h2{
+	margin-top: 0px;
 	background-color: #222222;
 	font-family: "Times New Roman";
 	color: white;
+	font-size: 25px;
 }
 body{
 	background-image:url("paper.jpg");
@@ -18,6 +22,7 @@ body{
 	background-color: #222222;
 }
 .paragraph{
+	color: black;
 	padding-top: 35px;
 	display: block;
 	font-size: 20px;
@@ -26,6 +31,7 @@ body{
 	font-weight: 600;
 }
 .paragraphProject{
+	color: black;
 	padding-top: 60px;
 	display: block;
 	font-size: 20px;
@@ -34,6 +40,7 @@ body{
 	font-weight: 600;
 }
 .finalParagraph{
+	color: black;
 	padding-top: 60px;
 	display: block;
 	font-size: 20px;
@@ -77,17 +84,6 @@ hr{
 	position: relative;
 	left: 35%;
 }
-#test{
-	position: relative;
-    display: inline-flex;
-    vertical-align: middle;
-    background-color: black;
-}
-#testAgain{
-	position: relative;
-    display: inline-flex;
-    vertical-align: middle;
-}
 .fa {
     padding: 20px;
     font-size: 20px;
@@ -110,4 +106,5 @@ hr{
 	color: white;
 	padding-bottom: 10px;
 	padding-top: 10px;
+	text-align-last: right;
 }
