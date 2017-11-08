@@ -6,10 +6,8 @@ h1{
 
 }
 h2{
-	margin-top: 0px;
-	background-color: #222222;
 	font-family: "Times New Roman";
-	color: white;
+	color: black;
 	font-size: 25px;
 }
 body{
@@ -21,13 +19,27 @@ body{
 	margin-top: 0px;
 	background-color: #222222;
 }
-.paragraph{
+.projectParagraph{
+	background-color: rgba(0,0,0,0.4);
+	border: 3px solid black;
+	text-align: center;
 	color: black;
-	padding-top: 35px;
+	font-size: 20px;
+	padding-left: 20%;
+	padding-right: 20%;
+	font-weight: 600;
+	border-radius: 100px;
+}
+.paragraph{
+	background-color: rgba(0,0,0,0.4);
+	border: 3px solid black;
+	border-radius: 100px;
+	text-align: center;
+	color: black;
 	display: block;
 	font-size: 20px;
-	padding-left: 45px;
-	padding-right: 45px;
+	padding-left: 15%;
+	padding-right: 15%;
 	font-weight: 600;
 }
 .paragraphProject{
@@ -40,8 +52,10 @@ body{
 	font-weight: 600;
 }
 .finalParagraph{
-	color: black;
-	padding-top: 60px;
+	background-color: rgba(0,0,0,0.4);
+	border: 3px solid black;
+	border-radius: 100px;
+	color: #720921;
 	display: block;
 	font-size: 20px;
 	padding-left: 20%;
@@ -72,11 +86,10 @@ footer{
 hr{
 	border: 1px solid;
 }
-#virginia{
-	padding-top: 20px;
+#milwaukeeSkyline{
 	position: relative;
-	height: 350px;
-	width: 70%;
+	height: 250px;
+	width: 55%;
 }
 #codeCamp{
 	display: inline;
@@ -107,4 +120,9 @@ hr{
 	padding-bottom: 10px;
 	padding-top: 10px;
 	text-align-last: right;
+}
+#mostWantedScreen{
+}
+#photoMe{
+	padding-bottom: 30px;
 }
